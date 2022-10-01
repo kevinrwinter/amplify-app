@@ -76,7 +76,7 @@ const App = ({ signOut }) => {
           </Button>
         </Flex>
       </View>
-      <Heading level={2}>Current Notes</Heading>
+      <Heading level={2}>Current notes</Heading>
       <View margin="3rem 0">
         {notes.map((note) => (
           <Flex key={note.id || note.name} direction="row" justifyContent="center" alignItems="center">
